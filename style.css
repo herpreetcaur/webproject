@@ -1,0 +1,86 @@
+
+
+@import url('PHOTO URL');
+
+
+img{
+  display: block;
+  border-radius: 200px;
+  margin-left: 50px;
+  margin-right: 4000px;
+  margin-top:50px;
+   
+}
+
+.h3{
+    font-family: "Kanit";
+    color:rgb(223, 231, 233);
+    margin-top:30px;
+    font-size:18px;
+    text-align: center;
+}
+
+.name{
+    font-family: "lato";
+    text-align: center;
+}
+
+.btns{
+    display:flex;
+    margin-left: 350px;
+}
+
+
+.resumebtn, .contactbtn{
+    background-color: rgb(56,56,56);
+    border:rgb(56, 157, 207);
+    color: white;
+    padding: 17px 32px;
+    border-radius:25px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+
+resumebtn:hover, contactbtn:active {
+  background-color: rgb(121, 123, 126);
+}
+
+body {
+  background-color: rgb(211, 127, 145);
+}
+
+.row1 {
+    margin-left: 00px;
+  }
+  
+  .column1 {
+    background-color: rgb(199, 81, 81);
+    width: 900px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #cc587f;
+    color: 8f3150;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #7da8e1;
+  }
+  
+  
+  .box {
+    border-radius: 5px;
+    background-color: #6bb4b4;
+    padding: 20px;
+  }
